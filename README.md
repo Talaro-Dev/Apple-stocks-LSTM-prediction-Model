@@ -1,5 +1,6 @@
-In this project i created a simple LSTM Model in Order to predict the AAPL stock (APPLE). Through this project i also experimented with different batch sizes and
-epoch in order to calculate the best model. To calculate the best model i used RMSE and MAE error values. 
+In this project i created a simple LSTM Model in Order to predict the AAPL stock (APPLE). Through this project i 
+also experimented with different batch sizes and epoch in order to calculate the best model. To calculate the 
+best model i used RMSE and MAE error values. 
 
 Here are some of the experimented values i used:
 
@@ -24,7 +25,9 @@ epoch | batch_size | training RMSE error | training MAE error | testing RMSE err
 200   |     5      |      2.7296         |       2.0643       |       11.9279      |       8.9169      
 
 
-Using that table of results the model concludes with average RMSE error = 8.8033 and MAE error = 5.5205 in testing.
+Using that table of results the model concludes with average RMSE error = 8.8033 and MAE error = 5.5205 in 
+testing.
+
 I can conclude that the model had success rate at 91% predicting AAPL (Apple stock).
 
 The database was used from https://www.kaggle.com/datasets/suyashlakhani/apple-stock-prices-20152020
